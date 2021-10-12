@@ -1,6 +1,6 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +35,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.box {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  padding: 20px;
+}
+
+.imgs {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.img {
+  border: 1px solid red;
+  cursor: pointer;
 }
