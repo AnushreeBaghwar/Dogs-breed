@@ -18,7 +18,7 @@ function Breed(props) {
       <ImageList
         sx={{ width: 1500, height: 900, padding: 2 }}
         cols={3}
-        rowWidth={304}
+        rowwidth={304}
         gap={8}
       >
         {imgs.map((item) => (
@@ -27,7 +27,7 @@ function Breed(props) {
               className="img"
               src={`${item}?w=5&h=164&fit=crop&auto=format`}
               srcSet={`${item}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
-              alt="img"
+              alt="breed"
               loading="lazy"
             />
           </ImageListItem>

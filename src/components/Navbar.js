@@ -42,8 +42,8 @@ function Navbar(props) {
           >
             <MenuIcon className={classes.menu} />
           </IconButton>
-          <img src={hello} height="70" width="80" />
-          <img src={paws} height="70" width="80" />
+          <img src={hello} alt="" height="70" width="80" />
+          <img src={paws} alt="" height="70" width="80" />
           <Typography
             variant="h5"
             noWrap

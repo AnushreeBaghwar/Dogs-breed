@@ -36,7 +36,7 @@ function Dogs(props) {
         return (
           <ListItem key={keyName} component="div" disablePadding>
             <ListItemButton>
-              <Link className={classes.link} to={`/breed/` + `${keyName}`}>
+              <Link className={classes.link} to={"/breed/" + keyName}>
                 <ListItemText className={classes.listItem} primary={keyName} />
               </Link>
             </ListItemButton>
