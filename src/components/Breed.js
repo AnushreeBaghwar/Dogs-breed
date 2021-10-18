@@ -19,6 +19,7 @@ function Breed(props) {
         sx={{ width: 1500, height: 900, padding: 2 }}
         cols={3}
         rowWidth={304}
+        gap={8}
       >
         {imgs.map((item) => (
           <ImageListItem key={item}>

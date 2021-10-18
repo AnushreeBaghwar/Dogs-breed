@@ -49,6 +49,9 @@
   align-items: center;
 }
 .img {
-  border: 1px solid red;
+  border-radius: 10px;
   cursor: pointer;
+}
+.img:hover {
+  box-shadow: 1px 2px 3px 5px rgba(128, 128, 128, 0.658);
 }
